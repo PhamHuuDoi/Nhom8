@@ -17,6 +17,7 @@ bool isPerfect(int n){
 			sum+=i;
 		}
 	}
+	return sum==n;
 }
 int main()
 {
@@ -26,10 +27,10 @@ int main()
 	cin>> a;
 	cout<<" Nhap b: ";
 	cin>> b;
-	cout<<"Tong =" tong(a+b) "\n";
-	cout<<"Hieu =" hieu(a-b)"\n";
+	cout<<"Tong ="<< tong(a+b) <<"\n";
+	cout<<"Hieu ="<< hieu(a-b)<<"\n";
 	int n;
-	cout<<"Nhap so n: "
+	cout<<"Nhap so n: ";
 	cin>>n;
 	if(isPerfect(n))
 	cout<<n<<"La so hoan hao.\n";
