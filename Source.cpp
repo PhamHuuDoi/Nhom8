@@ -2,7 +2,7 @@
 
 using namespace std;
 int tong(int a, int b){
-	rerturn a+B;
+	return a+B;
 }
 int hieu(int a, int b);
 int tich(int a, int b);
@@ -16,6 +16,7 @@ int main()
 	cout<<" Nhap b: ";
 	cin>> b;
 	cout<<"Tong =" tong(a+b) "\n";
+	cout<<"Tich =" tich(a*b) "\n";
 	system("pause");
 	return 0;
 }
