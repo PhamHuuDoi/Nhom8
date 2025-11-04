@@ -51,7 +51,7 @@ bool KTchanle(int n){
 
 int main()
 {
-	
+	cout<< "helo"
 	int a,b;
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	cout<<" Nhap a: ";
