@@ -5,15 +5,14 @@ int tong(int a, int b){
 	return a+b;
 }
 
-int tich(int a, int b){
-	return a*b;
-}
-
-int hieu(int a, int b){
-	return a-b;
-}
-
 float thuong(int a, int b);
+bool isPrime(int n){
+	if (b<2) return false;
+	for(int i=2;i<sqrt(n);i++){
+		if(n%2==0) return false
+	}
+	return true;
+}
 int main()
 {
 	int a,b;
@@ -23,11 +22,7 @@ int main()
 	cout<<" Nhap b: ";
 	cin>> b;
 	cout<<"Tong =" tong(a+b) "\n";
-
-	cout<<"Tich =" tich(a*b) "\n";
-
-	cout<<"Hieu =" hieu(a-b)"\n";
-
+	C
 	system("pause");
 	return 0;
 }
