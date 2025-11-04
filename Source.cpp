@@ -2,8 +2,12 @@
 
 using namespace std;
 int tong(int a, int b){
-	return a+B;
+	return a+b;
 }
+int tich(int a, int b){
+	return a*b;
+}
+
 int hieu(int a, int b);
 int tich(int a, int b);
 float thuong(int a, int b);
@@ -15,6 +19,7 @@ int main()
 	cin>> a;
 	cout<<" Nhap b: ";
 	cin>> b;
+	cout<<"Tich =" tich(a*b) "\n"
 	cout<<"Tong =" tong(a+b) "\n";
 	cout<<"Tich =" tich(a*b) "\n";
 	system("pause");
