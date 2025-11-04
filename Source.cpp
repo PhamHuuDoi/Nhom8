@@ -13,6 +13,7 @@ int hieu(int a, int b){
 }
 float thuong(int a, int b);
 
+
 bool isPerfect(int n){
 	if(n<=1) return false;
 	int sum=0;
@@ -37,8 +38,20 @@ bool isPrime(int n) {
     return true;
 
 }
+
+bool KTchanle(int n){
+	cout<<"Nhap so nguyen n: ";
+	cin>>n;
+	if(n%2==0)
+		return true;
+	else
+		return false;
+}
+
+
 int main()
 {
+	
 	int a,b;
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	cout<<" Nhap a: ";
@@ -56,18 +69,17 @@ int main()
 	cout<<n<<"La so hoan hao.\n";
 	else
 	cout<<n<<"Khong la so hoan hao.\n";
-
-	 cout << "Tong = " << tong(a, b) << "\n";
-    cout << "Tich = " << tich(a, b) << "\n";
-    cout << "Hieu = " << hieu(a, b) << "\n";
 	cout<<"Nhap so can kiem tra";
-	int n;
-	cin>>n;
 	if(isPrime(n)){
 		cout<<"\n"<< n <<" la so nguyen to";
 	} else{
 		cout<<"\n "<< n <<"khong phai la so nguyen to";
 	}
+	if(KTchanle(n))
+	cout<<"So "<<n<<" la so chan.\n";
+	else
+	cout<<"So "<<n<<" la so le.\n";
+
 	system("pause");
 	return 0;
 }
