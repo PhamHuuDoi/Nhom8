@@ -33,16 +33,16 @@ int main()
 	cin>> a;
 	cout<<" Nhap b: ";
 	cin>> b;
-	cout<<"Tong =" tong(a+b) "\n";
-	cout<<"Tich =" tich(a*b) "\n";
-	cout<<"Hieu =" hieu(a-b)"\n";
-	cont<<"Nhap so can kiem tra";
+	 cout << "Tong = " << tong(a, b) << "\n";
+    cout << "Tich = " << tich(a, b) << "\n";
+    cout << "Hieu = " << hieu(a, b) << "\n";
+	cout<<"Nhap so can kiem tra";
 	int n;
 	cin>>n;
 	if(isPrime(n)){
-		cout<<"\n" n " la so nguyen to";
+		cout<<"\n"<< n <<" la so nguyen to";
 	} else{
-		cout<<"\n " n "khong phai la so nguyen to"
+		cout<<"\n "<< n <<"khong phai la so nguyen to";
 	}
 	system("pause");
 	return 0;
