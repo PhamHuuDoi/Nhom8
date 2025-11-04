@@ -19,7 +19,6 @@ int main()
 	cin>> a;
 	cout<<" Nhap b: ";
 	cin>> b;
-	cout<<"Tich =" tich(a*b) "\n"
 	cout<<"Tong =" tong(a+b) "\n";
 	cout<<"Tich =" tich(a*b) "\n";
 	system("pause");
